@@ -1,0 +1,12 @@
+body {
+  background-image: url("https://media.discordapp.net/attachments/1241362916188618785/1241739342435586190/4b3cad487b4e6d53a1fdc89e16b80574.jpg?ex=664b4b61&is=6649f9e1&hm=bdefd9924daee7e8e43a27f0cc1ab5d244282a4107a205e25298180b81db9dd4&");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+  img {
+    width: 100%;
+    height: auto;
+    margin-top: -80px;
+  }
