@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
   <meta charset="utf-8">
@@ -12,7 +12,30 @@
   <script src="script.js"></script>
 </body>
 <body>
-  <img src="https://cdn.discordapp.com/attachments/1241362916188618785/1245573056404131904/HMHASBanner-Mobile-R3.png?ex=66593dce&is=6657ec4e&hm=90a94c6d83daa43cc3f0544aa95f8a287ef8c65491470935e04c40d341907a38&">
+  <style>
+    @keyframes slideInUp {
+            from {
+                transform: translateY(10%);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        #minhaImagem {
+            width: 100%;
+            height: auto;
+          margin-right: auto;
+          margin-top: -10px;
+            opacity: 0;
+            animation: slideInUp 1s forwards;
+            animation-delay: 0.5s;
+        }
+    </style>
+</body>
+  <img id="minhaImagem" src="https://cdn.discordapp.com/attachments/1241362916188618785/1245573056404131904/HMHASBanner-Mobile-R3.png?ex=66593dce&is=6657ec4e&hm=90a94c6d83daa43cc3f0544aa95f8a287ef8c65491470935e04c40d341907a38&">
 </body>
   <body>
     <div class="video-container">
